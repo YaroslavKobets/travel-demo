@@ -1,0 +1,53 @@
+:root {
+	--font-primary: 'SF Pro Text', sans-serif;
+	--font-helper: 'SF Pro Display', sans-serif;
+
+	--brand-0: 255 255 255; // #fff
+	--brand-25: 0 0 0; // #000
+	--brand-50: 60 60 67; // #3C3C43
+	--brand-75: 157 157 161; // #9D9DA1
+	--brand-100: 113 78 255; // #714EFF
+	--brand-125: 253 219 50; // #FDDB32
+
+	// COLORS
+	--white: rgb(var(--brand-0));
+	--black: rgb(var(--brand-25));
+
+	--background-primary: var(--white);
+	--background-secondary: rbg(var(--brand-0) / 0.5);
+
+	--grey: rgb(var(--brand-50));
+	--grey-primary: rgb(var(--brand-50) / 0.8);
+	--grey-secondary: rgb(var(--brand-50) / 0.5);
+	--grey-third: rgb(var(--brand-50) / 0.3);
+	--grey-fourth: rgb(var(--brand-50) / 0.18);
+
+	--light-grey-primary: rgb(var(--brand-75));
+	--light-grey-secondary: rgb(var(--brand-75) / 0.3);
+
+	--yellow: rgb(var(--brand-125));
+	--purpure: rgb(var(--brand-100));
+	--purpure-secondary: rgb(var(--brand-100) / 0.8);
+
+	// properties
+	--transition-duration: 0.3s;
+	--box-shadow: 0px 2px 3px 0px rgb(var(--brand-25) / 0.03);
+
+	--border-radius-xxl: 24px;
+	--border-radius-xl: 16px;
+
+	--border-radius-l: 12px;
+	--border-radius-s: 8px;
+	--border-radius-xs: 4px;
+	--icon-size: 24px;
+	--default-gap: 24px;
+	--gap-xs: 4px;
+	--default-padding: 24px;
+	--button-lh: 2.133333;
+	--text-gap: 16px;
+	--left: -32px;
+	@media (max-width: 480px) {
+		--border-radius-xl: var(--border-radius-s);
+		--left: -20px;
+	}
+}

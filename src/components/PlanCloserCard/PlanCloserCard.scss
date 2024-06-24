@@ -1,0 +1,70 @@
+.plan-closer-card {
+	--card--padding: 12px;
+
+	display: grid;
+	grid-template-columns: 96px 1fr auto;
+	padding: var(--card--padding);
+	align-items: center;
+	column-gap: calc(var(--card--padding) * 2);
+	background-color: rgb(var(--brand-0) / 0.5);
+	backdrop-filter: blur(4px);
+	margin-inline: calc(-1 * var(--card--padding));
+	border-radius: var(--border-radius-xl);
+	cursor: grab;
+	z-index: 3;
+	&:active {
+		cursor: grabbing;
+	}
+	&::before,
+	&::after {
+		content: '';
+		width: 16px;
+		height: 16px;
+		background-color: var(--white);
+		border-radius: 50%;
+		position: absolute;
+		left: calc(var(--left) + var(--card--padding));
+		transform: translateX(-50%);
+	}
+	&::after {
+		width: 8px;
+		height: 8px;
+		background-color: var(--light-grey-primary);
+	}
+	&__image {
+		border-radius: var(--border-radius-xl);
+		overflow: hidden;
+		img {
+			aspect-ratio: 96/132;
+		}
+	}
+
+	&__content {
+		display: grid;
+
+		justify-content: start;
+		row-gap: 8px;
+	}
+
+	&__control {
+		width: var(--icon-size);
+		height: var(--icon-size);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: var(--gap-xs);
+		&::before,
+		&::after {
+			content: '';
+			width: 80%;
+			height: 2px;
+			background-color: var(--grey-secondary);
+		}
+	}
+	&__label {
+		background-color: var(--grey);
+		width: min-content;
+		white-space: nowrap;
+	}
+}

@@ -1,0 +1,17 @@
+.infoTuple {
+	letter-spacing: -0.02em;
+
+	font-weight: 400;
+	color: var(--grey);
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	*:not(:last-child) {
+		&::after {
+			content: '·';
+			font-weight: 700;
+			margin-inline: var(--gap-xs);
+			color: var(--light-grey-primary);
+		}
+	}
+}

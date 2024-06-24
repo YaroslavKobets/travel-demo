@@ -1,0 +1,29 @@
+.highlights {
+	padding-block: var(--default-padding);
+	&__header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: calc(var(--default-gap) / 2);
+		margin-bottom: var(--text-gap);
+		white-space: nowrap;
+		flex-wrap: wrap;
+	}
+	&__title {
+		font-size: 28px;
+		line-height: 1.28;
+		font-family: var(--font-helper);
+		opacity: 0;
+	}
+
+	&__controls {
+		display: flex;
+		align-items: center;
+		gap: var(--gap-xs);
+	}
+	&__controls-btn {
+		border-radius: var(--border-radius-xl);
+		transform: scale(0);
+		box-shadow: var(--box-shadow);
+	}
+}

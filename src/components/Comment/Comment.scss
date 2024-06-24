@@ -1,0 +1,34 @@
+.comment {
+	--avatar-size: calc(var(--icon-size) * 2);
+
+	&__author {
+		display: grid;
+		grid-template-columns: var(--avatar-size) 1fr;
+		grid-template-rows: repeat(2, 1fr);
+		align-items: center;
+		column-gap: calc(var(--default-gap) / 2);
+		margin-bottom: var(--text-gap);
+	}
+
+	&__author-picture {
+		border-radius: 50%;
+		overflow: hidden;
+		grid-row: 2 span;
+		width: var(--avatar-size);
+		height: var(--avatar-size);
+		opacity: 0;
+	}
+	&__author-name {
+		opacity: 0;
+	}
+	&__author-status {
+		line-height: 1.4;
+		color: var(--grey-primary);
+		opacity: 0;
+	}
+
+	&__text {
+		font-weight: 400;
+		opacity: 0;
+	}
+}

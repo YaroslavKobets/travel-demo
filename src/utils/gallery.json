@@ -1,0 +1,42 @@
+[
+	{
+		"id": 1,
+		"alt": "image-1",
+		"image": "./src/assets/images/gallery-1.jpg"
+	},
+	{
+		"id": 2,
+		"alt": "image-2",
+		"image": "./src/assets/images/gallery-2.jpg"
+	},
+	{
+		"id": 3,
+		"alt": "image-3",
+		"image": "./src/assets/images/gallery-3.jpg"
+	},
+	{
+		"id": 4,
+		"alt": "image-4",
+		"image": "./src/assets/images/gallery-4.jpg"
+	},
+	{
+		"id": 5,
+		"alt": "image-5",
+		"image": "./src/assets/images/gallery-5.jpg"
+	},
+	{
+		"id": 6,
+		"alt": "image-6",
+		"image": "https://lipsum.app/id/60/692x584"
+	},
+	{
+		"id": 7,
+		"alt": "image-7",
+		"image": "https://lipsum.app/id/61/692x584"
+	},
+	{
+		"id": 8,
+		"alt": "image-8",
+		"image": "https://lipsum.app/id/63/692x584"
+	}
+]

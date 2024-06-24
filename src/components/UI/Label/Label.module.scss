@@ -1,0 +1,17 @@
+.label {
+	line-height: var(--button-lh);
+	padding-inline: 12px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+	border-radius: var(--border-radius-s);
+	color: var(--light-grey);
+	box-shadow: var(--box-shadow);
+	backdrop-filter: blur(12px);
+}
+
+.glass {
+	color: var(--white);
+	background-color: var(--light-grey-secondary);
+}

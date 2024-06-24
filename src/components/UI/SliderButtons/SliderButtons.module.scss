@@ -1,0 +1,41 @@
+.sliderButtons {
+	position: absolute;
+	top: 45%;
+	transform: translateY(-50%);
+	width: 100%;
+	left: 0;
+	padding-inline: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 2;
+	button {
+		width: calc(var(--icon-size) * 1.5);
+		height: calc(var(--icon-size) * 1.5);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50%;
+		background-color: var(--white);
+		transition: opacity var(--transition-duration),
+			transform var(--transition-duration);
+		cursor: pointer;
+		&:hover {
+			opacity: 0.8;
+		}
+
+		&:disabled {
+			opacity: 0;
+			&:first-child {
+				transform: translateX(-100%);
+			}
+			&:last-child {
+				transform: translateX(100%);
+			}
+		}
+		img {
+			width: var(--icon-size);
+			height: var(--icon-size);
+		}
+	}
+}

@@ -1,0 +1,28 @@
+.bar-loader {
+	&__text {
+		position: fixed;
+		z-index: 11;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		padding: 2rem;
+		font-size: 2rem;
+		color: var(--white);
+	}
+
+	&__overlay {
+		position: fixed;
+		width: 100vw;
+		height: 100vh;
+		z-index: 10;
+		display: flex;
+	}
+	&__bar {
+		width: 10vw;
+		height: 105vh;
+		background-color: #1a1a1a;
+	}
+}

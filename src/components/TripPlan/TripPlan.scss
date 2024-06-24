@@ -1,0 +1,114 @@
+.trip-overlay {
+	filter: blur(20px);
+}
+
+.trip-plan {
+	padding-inline: calc(var(--default-padding) * 2) 0;
+	padding-block: var(--default-padding);
+	position: relative;
+	opacity: 0;
+
+	@media (max-width: 480px) {
+		padding-left: 32px;
+	}
+	&__content {
+		position: relative;
+		&:not(:last-child) {
+			padding-bottom: var(--default-gap);
+			&::before {
+				content: '';
+				width: 2px;
+				height: 100%;
+				z-index: 1;
+				position: absolute;
+				top: 3px;
+				left: var(--left);
+				transform: translateX(-50%);
+				background-color: var(--grey-third);
+			}
+		}
+		&:nth-child(2) {
+			.trip-plan__icon {
+				color: var(--white);
+				background-color: var(--purpure);
+				font-size: 12px;
+				font-weight: 500;
+			}
+		}
+		@media (max-width: 480px) {
+			&:nth-child(2) {
+				.trip-plan__icon {
+					top: 3px;
+				}
+			}
+		}
+	}
+
+	&__icon {
+		position: absolute;
+		top: -4px;
+		left: var(--left);
+		border-radius: 50%;
+		width: calc(var(--icon-size) * 1.5);
+		height: calc(var(--icon-size) * 1.5);
+		background-color: var(--light-grey-primary);
+		border: 2px solid var(--white);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transform: translateX(-50%);
+		z-index: 2;
+		@media (max-width: 480px) {
+			width: var(--icon-size);
+			height: var(--icon-size);
+			border-width: 1px;
+			top: 0;
+		}
+		img {
+			width: var(--icon-size);
+			height: var(--icon-size);
+		}
+	}
+
+	&__content-header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: var(--default-gap);
+		gap: calc(var(--default-gap) / 2);
+		h3 {
+			@media (min-width: 480px) {
+				font-size: 18px;
+				gap: var(--default-gap);
+			}
+		}
+		@media (max-width: 480px) {
+			.button {
+				img {
+					display: none;
+				}
+			}
+		}
+	}
+}
+.trip-description {
+	&__title {
+		font-size: 20px;
+		font-family: var(--font-helper);
+		margin-bottom: var(--text-gap);
+	}
+
+	&__tags {
+		display: flex;
+		align-items: center;
+		gap: calc(var(--gap-xs) * 4);
+		font-weight: 400;
+		color: var(--grey-secondary);
+	}
+
+	&__text {
+		margin-top: var(--text-gap);
+		font-weight: 500;
+		color: var(--grey);
+	}
+}

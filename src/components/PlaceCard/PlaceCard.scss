@@ -1,0 +1,60 @@
+.place-card {
+	--element-position: 8px;
+
+	width: 100%;
+	max-width: 216px;
+	overflow: hidden;
+	> :not(:last-child) {
+		margin-bottom: var(--gap-xs);
+	}
+
+	&__picture {
+		position: relative;
+		overflow: hidden;
+		border-radius: var(--border-radius-xl);
+		> img {
+			aspect-ratio: 216/292;
+		}
+	}
+
+	&__label {
+		position: absolute;
+		top: var(--element-position);
+		left: var(--element-position);
+	}
+
+	&__save {
+		position: absolute;
+		top: var(--element-position);
+		right: var(--element-position);
+		width: calc(var(--icon-size) * 1.5);
+		height: calc(var(--icon-size) * 1.5);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: var(--border-radius-xl);
+		background: var(--light-grey-secondary);
+		transition: filter var(--transition-duration);
+		backdrop-filter: blur(12px);
+		cursor: pointer;
+
+		&.active {
+			img {
+				filter: brightness(0) saturate(100%) invert(95%) sepia(38%)
+					saturate(5348%) hue-rotate(327deg) brightness(104%) contrast(98%);
+			}
+		}
+	}
+
+	&__title {
+		letter-spacing: -0.04em;
+		font-size: 18px;
+	}
+
+	&__rating {
+		display: flex;
+		align-items: center;
+		column-gap: var(--gap-xs);
+		padding: 2px 4px;
+	}
+}

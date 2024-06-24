@@ -1,0 +1,165 @@
+[
+	{
+		"plan": "A",
+		"title": "Golden Circle Region",
+		"tags": ["Geysers", "Waterfalls", "Crater lakes"],
+		"description": "The Golden Circle in Iceland is a renowned tourist route that encompasses an array of stunning natural landmarks within a relatively short distance from Reykjavík. This scenic loop includes three primary attractions: Þingvellir National Park, where you can explore the rift valley created by the diverging North American and Eurasian tectonic plates and witness the site of Iceland's ancient parliament.",
+		"region": [
+			{
+				"id": 1,
+				"title": "Gullfoss Waterfall",
+				"picture": "https://lipsum.app/id/22/216x292",
+				"curatorLike": true,
+				"placeInfo": {
+					"infoTags": ["Iconic waterfall", "Iconic hike"],
+					"tripTimeInMin": 110
+				}
+			},
+			{
+				"id": 2,
+				"title": "The Greenhouse Hotel",
+				"picture": "https://lipsum.app/id/49/216x292",
+				"curatorLike": false,
+
+				"placeInfo": {
+					"infoTags": ["Iconic hike", "Hot springs"],
+					"tripTimeInMin": 110
+				}
+			},
+			{
+				"id": 3,
+				"title": "Geysir Thermal Field",
+				"picture": "https://lipsum.app/id/11/216x292",
+				"curatorLike": false,
+				"placeInfo": {
+					"infoTags": ["Geysers"],
+					"tripTimeInMin": 40
+				}
+			},
+			{
+				"id": 4,
+				"title": "Skógafoss Waterfall",
+				"picture": "https://lipsum.app/id/2/216x292",
+				"curatorLike": true,
+				"placeInfo": {
+					"infoTags": ["Iconic waterfall"],
+					"tripTimeInMin": 90
+				}
+			}
+		],
+		"booking": [
+			{
+				"title": "Frost and Fire Hotel ",
+				"picture": "https://lipsum.app/id/88/216x292",
+				"curatorLike": true,
+				"rating": 9.7,
+				"placeInfo": {
+					"infoTags": ["$180+", "Boutique hotel"]
+				}
+			},
+			{
+				"title": "The Greenhouse Hotel",
+				"picture": "https://lipsum.app/id/53/216x292",
+				"curatorLike": false,
+				"rating": 9.3,
+				"placeInfo": {
+					"infoTags": ["$230+", "Luxury hotel"]
+				}
+			},
+			{
+				"title": "INNI",
+				"picture": "https://lipsum.app/id/21/216x292",
+				"curatorLike": true,
+				"rating": 9.5,
+				"placeInfo": {
+					"infoTags": ["$130+", "Apart hotel"]
+				}
+			},
+			{
+				"title": "Magma Hotel",
+				"picture": "https://lipsum.app/id/76/216x292",
+				"curatorLike": false,
+				"rating": 8.8,
+				"placeInfo": {
+					"infoTags": ["$155+", "Boutique hotel"]
+				}
+			}
+		]
+	},
+	{
+		"plan": "B",
+		"title": "South & Highlands ",
+		"tags": ["Geysers", "Waterfalls"],
+		"description": "The South & Highlands of Iceland offer a breathtaking landscape of diverse natural wonders, from expansive glaciers and active volcanoes to serene waterfalls and black sand beaches. This region is also a haven for adventurers, featuring numerous hiking trails, hidden hot springs, and vast lava fields waiting to be explored. Visitors will be captivated by the blend of tranquility and raw, untamed beauty that defines this unique part of Iceland.",
+		"region": [
+			{
+				"id": 5,
+				"title": "Skógafoss Waterfall",
+				"picture": "https://lipsum.app/id/62/216x292",
+				"curatorLike": true,
+				"placeInfo": {
+					"infoTags": ["Waterfall"],
+					"tripTimeInMin": 60
+				}
+			},
+			{
+				"id": 6,
+				"title": "Katla Ice Cave",
+				"picture": "https://lipsum.app/id/98/216x292",
+				"curatorLike": false,
+				"placeInfo": {
+					"infoTags": ["Iconic hike", "Hot springs"],
+					"tripTimeInMin": 100
+				}
+			},
+			{
+				"id": 7,
+				"title": "Fjaðrárgljúfur ",
+				"picture": "https://lipsum.app/id/54/216x292",
+				"curatorLike": false,
+				"placeInfo": {
+					"infoTags": ["Geysers"],
+					"tripTimeInMin": 90
+				}
+			}
+		],
+		"booking": [
+			{
+				"title": "Hótel Kría",
+				"picture": "https://lipsum.app/id/65/216x292",
+				"curatorLike": true,
+				"rating": 9.7,
+				"placeInfo": {
+					"infoTags": ["$140+", "Boutique hotel"]
+				}
+			},
+			{
+				"title": "Hotel Vík í Mýrdal",
+				"picture": "https://lipsum.app/id/32/216x292",
+				"curatorLike": false,
+				"rating": 9.3,
+				"placeInfo": {
+					"infoTags": ["$210+", "Luxury hotel"]
+				}
+			},
+			{
+				"title": "INNI",
+				"picture": "https://lipsum.app/id/11/216x292",
+				"curatorLike": true,
+				"rating": 9.5,
+				"placeInfo": {
+					"infoTags": ["$180+", "Apart hotel"]
+				}
+			},
+			{
+				"title": "Magma Hotel",
+				"picture": "https://lipsum.app/id/77/216x292",
+				"curatorLike": false,
+				"rating": 8.8,
+				"placeInfo": {
+					"infoTags": ["$155+", "Boutique hotel"]
+				}
+			}
+		]
+	}
+]
