@@ -6,7 +6,7 @@ const Comment = () => {
 		<div className='comment'>
 			<div className='comment__author'>
 				<div className='comment__author-picture'>
-					<img src='./src/assets/images/ava.jpg' alt='' />
+					<img src='./images/ava.jpg' alt='' />
 				</div>
 				<div className='comment__author-name'>Curated by Sandra</div>
 				<div className='comment__author-status'>Fyno expert</div>

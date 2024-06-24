@@ -6,12 +6,12 @@ const SliderButtons = ({ classes }) => {
 			<button className={classes[1]}>
 				<img
 					style={{ transform: 'rotate(180deg)' }}
-					src='./src/assets/images/svg/arrow.svg'
+					src='./images/svg/arrow.svg'
 					alt=''
 				/>
 			</button>
 			<button className={classes[0]}>
-				<img src='./src/assets/images/svg/arrow.svg' alt='' />
+				<img src='./images/svg/arrow.svg' alt='' />
 			</button>
 		</div>
 	)

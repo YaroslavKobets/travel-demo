@@ -35,7 +35,7 @@ const Gallery = () => {
 				)
 			})}
 			<div className='gallery__show-btn button' onClick={openGallery}>
-				<img src='./src/assets/images/svg/more-squares.svg' alt='icon' />
+				<img src='./images/svg/more-squares.svg' alt='icon' />
 				All photos
 			</div>
 		</Fancybox>

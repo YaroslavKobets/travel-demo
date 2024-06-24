@@ -23,13 +23,13 @@ const PlaceCard = ({ dataCard }) => {
 					onClick={() => setSaveCard(!saveCard)}
 					className={`place-card__save ${saveCard && 'active'}`}
 				>
-					<img src='./src/assets/images/svg/save-card.svg' alt='' />
+					<img src='./images/svg/save-card.svg' alt='' />
 				</div>
 			</div>
 			<div className='place-card__title'>{dataCard.title}</div>
 			{dataCard.rating && (
 				<div className='place-card__rating'>
-					<img src='./src/assets/images/svg/rating.svg' alt='' />
+					<img src='./images/svg/rating.svg' alt='' />
 					<span>{dataCard.rating}/10</span>
 				</div>
 			)}

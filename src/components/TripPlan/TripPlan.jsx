@@ -23,12 +23,12 @@ const TripPlan = ({ dataPlan }) => {
 
 			<div className='trip-plan__content'>
 				<span className='trip-plan__icon'>
-					<img src='./src/assets/images/svg/stars.svg' alt='' />
+					<img src='./images/svg/stars.svg' alt='' />
 				</span>
 				<div className='trip-plan__content-header'>
 					<h3>Region highlights</h3>
 					<div onClick={() => setShow(!show)} className='button'>
-						<img src='./src/assets/images/svg/list.svg' alt='' />
+						<img src='./images/svg/list.svg' alt='' />
 						Show daily plan
 					</div>
 				</div>
@@ -40,7 +40,7 @@ const TripPlan = ({ dataPlan }) => {
 			</div>
 			<div className='trip-plan__content'>
 				<span className='trip-plan__icon'>
-					<img src='./src/assets/images/svg/bed.svg' alt='' />
+					<img src='./images/svg/bed.svg' alt='' />
 				</span>
 				<div className='trip-plan__content-header'>
 					<h3>Where to stay</h3>
